@@ -1,16 +1,12 @@
-Feature: Sign Up Page
+Feature: User Sign Up in Ijmeet site
 
 Scenario: Create a new user
-Given user is on sign up page
-When user enters the following details
+Given I've a valid set of data and access to sign up page
+When Sign Up page Displayed
+Then user enters valid data on sign up page
 |Full Name|Crystal Jonas|
 |Company Name|Test|
-|Email Id |abc12@gmail.com|
+|Email Id |abc11@gmail.com|
 |Mobile Number|8975463510|
-|Password|Admin@123|
-And user clicks sign up button
-
-Scenario: User does not follow validation
-When user enters wrong characters
-Then error message displayed with invalid password
-And user return back on sign up page
+|Password|Admin@1122|
+Then user clicks sign up button

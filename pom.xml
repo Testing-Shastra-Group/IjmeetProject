@@ -17,9 +17,8 @@
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>4.2.2</version>
+			<version>4.3.1</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
@@ -99,7 +98,7 @@
 			<version>5.5.2</version>
 		</dependency>
 
-		
+
 
 		<dependency>
 			<groupId>net.sourceforge.cobertura</groupId>
